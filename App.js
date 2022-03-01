@@ -8,9 +8,9 @@ export default function App() {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.inner_container}>
-        <Text style={(styles.text, styles.first_text)}>hello</Text>
-        <Text style={(styles.text, styles.second_text)}>hello 2</Text>
-        <Text style={(styles.text, styles.third_text)}>hello 3</Text>
+        <Text style={[styles.text, styles.first_text]}>hello</Text>
+        <Text style={[styles.text, styles.second_text]}>hello 2</Text>
+        <Text style={[styles.text, styles.third_text]}>hello 3</Text>
       </View>
       <Image
         style={styles.img}
